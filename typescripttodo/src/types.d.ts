@@ -3,3 +3,8 @@ interface TodoType{
     task: string
     isDone: boolean
 }
+
+interface ITodoList {
+    todos: TodoType[];
+    
+}
